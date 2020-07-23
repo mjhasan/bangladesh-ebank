@@ -1,0 +1,51 @@
+body {
+    padding: 50px;
+}
+
+#login-area {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#login-form {
+    padding: 30px;
+    box-shadow: 10px 10px gray 20px;
+    border-radius: 10px;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.deposit,
+.withdraw,
+.balance {
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.deposit {
+    background-color: #5E4EC5;
+}
+
+.withdraw {
+    background-color: #EF956E;
+}
+
+.balance {
+    background-color: #EE9A00;
+}
+
+.input-withdraw,
+.input-deposit {
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.alert {
+    display: none;
+}
